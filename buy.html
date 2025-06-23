@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy a Mercedes - Carmania</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body style="
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  background-color: #1E1E1E;
+  color: #f0f0f0;
+">
+
+  <!-- Hero Section -->
+  <header style="
+    background-image: url('pexels-saimon-11556663.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+  ">
+    <h1 style="font-size: 56px; font-family: 'Lato', sans-serif; margin-bottom: 10px;">
+      Buy a <span style="color: #E94560;">Mercedes</span>
+    </h1>
+    <p style="font-size: 22px;">Reserve your dream car in just a few steps.</p>
+    <nav style="margin-top: 30px;">
+      <a href="carmania.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">Home</a>
+      <a href="buy.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">Buy</a>
+      <a href="contact.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">Contact</a>
+      <a href="developer.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">Developers</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main style="padding: 40px 20px; max-width: 900px; margin: auto;">
+    <!-- Booking Form -->
+    <section>
+      <h2 style="text-align: center; margin-bottom: 20px; font-family: 'Lato', sans-serif;">Book Your Car</h2>
+      <form style="background-color: #2a2a2a; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" style="width: 100%; padding: 10px; margin-bottom: 15px; background: #1E1E1E; border: 1px solid #555; border-radius: 4px; color: #f0f0f0;">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 15px; background: #1E1E1E; border: 1px solid #555; border-radius: 4px; color: #f0f0f0;">
+
+        <label for="model">Model:</label>
+        <select id="model" name="model" style="width: 100%; padding: 10px; margin-bottom: 15px; background: #1E1E1E; border: 1px solid #555; border-radius: 4px; color: #f0f0f0;">
+          <option value="C-Class">C-Class</option>
+          <option value="E-Class">E-Class</option>
+          <option value="GLC">GLC</option>
+          <option value="AMG GT">AMG GT</option>
+        </select>
+
+        <label for="color">Preferred Color:</label>
+        <input type="text" id="color" name="color" style="width: 100%; padding: 10px; margin-bottom: 15px; background: #1E1E1E; border: 1px solid #555; border-radius: 4px; color: #f0f0f0;">
+
+        <label for="message">Additional Requests:</label>
+        <textarea id="message" name="message" rows="4" style="width: 100%; padding: 10px; background: #1E1E1E; border: 1px solid #555; border-radius: 4px; color: #f0f0f0;"></textarea>
+
+        <input type="submit" value="Submit" style="margin-top: 15px; background-color: #E94560; color: white; border: none; padding: 12px 20px; cursor: pointer; border-radius: 5px; font-weight: bold;">
+      </form>
+    </section>
+
+    <!-- Car Showcase -->
+    <section style="margin-top: 60px;">
+      <h2 style="text-align: center; margin-bottom: 30px; font-family: 'Lato', sans-serif;">Explore Models</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        <div style="text-align: center;">
+          <img src="E-CLASS.jpg" alt="Mercedes E-Class" width="300" style="border-radius: 8px;">
+          <p style="margin-top: 10px; color: #C0C0C0;">Mercedes E-Class</p>
+        </div>
+        <div style="text-align: center;">
+          <img src="C-CLASS.jpg" alt="Mercedes C-Class" width="300" style="border-radius: 8px;">
+          <p style="margin-top: 10px; color: #C0C0C0;">Mercedes C-Class</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
